@@ -51,19 +51,33 @@ Model can be build using the SOURCE/TRAIN/train.py file and evaluated using the 
 # Outline
 
 ICDM_PrescribedFires
+
 │   README.txt
+
 └───SOURCE
+
 │   │   TEST
+
 │   │      test.py
+
 │   │      plotting.ipynb
+
 │   │   TRAIN
+
 │   │      train.py
+
 │   │   FIGURES
+
 │   │      PGCLplus.png
+
 │   │      ...
+
 │   
+
 └───DATA
+
 │   │   RESULTS
+
 │   │   ...
 
 
