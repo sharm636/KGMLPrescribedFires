@@ -24,7 +24,7 @@ Data can be generated following the instructions given in this [GitHub repositor
 
 ### Modeling Setup
 
-The dataset consists of 50 training examples and 50 test samples. The initian wind speed and wind direction values are scalars that are repeated throughout the grid and sequence to match the other input tensors. Wind speed can vary from 1 m/s to 15 m/s. Wind direction varies from 230 $^\circ$ to 330 $^\circ$. Source and target fuel densities vary between 0 and 0.7 kg / m^2. Each time step consists of a spatial grid with 300 x 300 cells where each cell has spatial resolution of 2 m x 2 m. We use min max scaling to pre-process the wind data.
+The dataset consists of 50 training examples and 50 test samples. The initial wind speed and wind direction values are scalars that are repeated throughout the grid and sequence to match the other input tensors. Wind speed can vary from 1 m/s to 15 m/s. Wind direction varies from 230 $^\circ$ to 330 $^\circ$. Source and target fuel densities vary between 0 and 0.7 kg / m^2. Each time step consists of a spatial grid with 300 x 300 cells where each cell has spatial resolution of 2 m x 2 m. We use min max scaling to pre-process the wind data.
 
 
 # Experimental Setup
